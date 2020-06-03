@@ -1,0 +1,24 @@
+<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700.18 452.19">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f26e14;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #2a343e;
+      }
+
+      .cls-3 {
+        font-size: 118.86px;
+        font-family: Roboto-Regular, Roboto;
+      }
+    </style>
+  </defs>
+  <title>画板 8</title>
+  <polygon class="cls-1" points="387.9 196.84 426.25 196.84 426.25 227.17 408.27 227.17 387.9 196.84"/>
+  <polygon class="cls-1" points="349.86 136.87 426.25 136.87 426.25 167.2 370.22 167.2 349.86 136.87"/>
+  <polygon class="cls-1" points="306.27 76.91 426.25 76.91 426.25 107.24 326.63 107.24 306.27 76.91"/>
+  <polygon class="cls-2" points="399.73 227.17 297.77 76.91 258.62 76.91 309.5 152.04 258.62 227.17 297.77 227.17 329.19 180.76 360.58 227.17 399.73 227.17"/>
+  <text class="cls-3" transform="translate(149.17 370.32)">Hamler</text>
+</svg>
