@@ -2,7 +2,7 @@
 
 ## Endorsing the next generation of scalable, achievable, real-time applications , and aiming to shine in 5G and IoT fields
 
-### Hamler is a strongly typed compile-time typechecking language with built-in support for concurrency and  distribution to 
+### Hamler is a strongly typed  language with compile-time typechecking and built-in support for concurrency and  distribution.
 
 
 
