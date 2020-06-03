@@ -4,26 +4,19 @@
 
 ### Hamler is a strongly typed compile-time typechecking language with built-in support for concurrency and  distribution to 
 
-**Install**
+
+
+### **Install**
 
 ```shell
 brew install hamler
 ```
 
-**Source Code**
+
+
+### **Source Code**
 
 
 
-**Documents**
-
-1. Why Hamler
-2. Setup
-3. [**Basic Types, Fucntions and Operators**](docs/guide/03_BasicTypesFucntionsAndOperators.md)
-4. **More Types and Pattern Matching**
-5. **High Order Functions And Recursions**
-6. **Type Classes**
-7. **Applicative and Monad**
-8. Foreign Language Interface
-9. Concurrency and Distrubutaion
-10. OTP
+### [**Documents**](docs/guide/00_TableOfContent)
 
