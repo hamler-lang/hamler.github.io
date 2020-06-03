@@ -18,5 +18,5 @@ brew install hamler
 
 
 
-### [**Documents**](docs/guide/00_TableOfContents)
+### [**Documents**](docs/guide/00_TableOfContents.md)
 
