@@ -18,7 +18,7 @@ brew install hamler
 
 1. Why Hamler
 2. Setup
-3. [**Basic functions and types**](https://github.com/hamler-lang/hamler/blob/master/doc/guide/01_WhyHamler.md)
+3. [**Basic Types, Fucntions and Operators**](docs/guide/03_BasicTypesFucntionsAndOperators.md)
 4. **More Types and Pattern Matching**
 5. **High Order Functions And Recursions**
 6. **Type Classes**
