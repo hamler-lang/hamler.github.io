@@ -1,4 +1,4 @@
 theme: jekyll-theme-minimal
-
+description: Haskell-style functional programming language running on Erlang VM.
 logo: /images/logo.svg
 
