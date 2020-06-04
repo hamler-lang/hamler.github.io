@@ -1,8 +1,8 @@
 # The Hamler Programming Language
 
-`Hamler` is a strongly-typed language with compile-time typechecking and built-in support for concurrency and distribution.
+**Hamler** is a strongly-typed language with compile-time typechecking and built-in support for concurrency and distribution.
 
-`Hamler` empowers industries to build the next generation of scalable, reliable, realtime applications, especially for 5G, IoT and edge computing.
+**Hamler** empowers industries to build the next generation of scalable, reliable, realtime applications, especially for 5G, IoT and edge computing.
 
 ## **Why Hamler?**
 
@@ -78,7 +78,7 @@ make run
 
 ## **Community, discussion and supports**
 
-You can reach the `Hamler` community and core team via the following channels:
+You can reach the **Hamler** community and core team via the following channels:
 
 - [Slack - emqx/hamler-lang](https://slack-invite.emqx.io/)
 - [Twitter - @hamlerlang](https://twitter.com/hamlerlang)
@@ -87,7 +87,7 @@ You can reach the `Hamler` community and core team via the following channels:
 
 ## **Contributing**
 
-To contribute to `Hamler` project:
+To contribute to **Hamler** project:
 
 - Report issues : submit any bugs, issues to [hamler/issues](https://github.com/hamler-lang/hamler/issues)
 - Contribute code: Fork the project, and submit feature requests to [hamler-lang/hamler](https://github.com/hamler-lang/hamler).
@@ -95,7 +95,7 @@ To contribute to `Hamler` project:
 
 ## **Authors**
 
-The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
+The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
 - Feng Lee <feng@emqx.io>
 - Yang M  <yangm@emqx.io>
@@ -103,6 +103,3 @@ The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) n
 ## **License**
 
 BSD3
-
-The compiler is based on purescript 0.13.6.
-
