@@ -1,6 +1,6 @@
 # The Hamler Programming Language
 
-`Hamler` - Haskell-style functional programming language running on Erlang VM. `Hamler` is a strongly-typed language with compile-time typechecking and built-in support for concurrency and distribution.
+`Hamler` is a strongly-typed language with compile-time typechecking and built-in support for concurrency and distribution.
 
 `Hamler` empowers industries to build the next generation of scalable, reliable, realtime applications, especially for 5G, IoT and edge computing.
 
@@ -17,7 +17,7 @@ However, from all the experience writing Erlang, we believe that the following f
 
 Now all the features are avaliable in the Hamler programming language.
 
-## Features
+## **Features**
 
 - Functional programming
 - Haskell and ML style
@@ -95,8 +95,14 @@ To contribute to `Hamler` project:
 
 ## **Authors**
 
-The core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/)
+The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
 - Feng Lee <feng@emqx.io>
 - Yang M  <yangm@emqx.io>
+
+## **License**
+
+BSD3
+
+The compiler is based on purescript 0.13.6.
 
