@@ -2,7 +2,9 @@
 title: The Hamler Programming Language
 ---
 
-# Hamler
+# The Hamler Programming Language
+
+**Hamler** is a strongly-typed language with compile-time typechecking and built-in support for concurrency and distribution.
 
 **Hamler** empowers industries to build the next generation of scalable, reliable, realtime applications, especially for 5G, IoT and edge computing.
 
