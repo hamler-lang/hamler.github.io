@@ -76,7 +76,15 @@ make run
 ### **Documentation**
 
 - [Cheatsheet](https://github.com/hamler-lang/hamler/blob/master/doc/Cheatsheet.md)
-- [Guide](https://github.com/hamler-lang/hamler/blob/master/doc/guide/)
+- [Why Hamler?](https://github.com/hamler-lang/hamler/blob/master/doc/guide/01_WhyHamler.md)
+- [Quick Start](https://github.com/hamler-lang/hamler/blob/master/doc/guide/02_QuickStart.md)
+- [Basic Data Types](https://github.com/hamler-lang/hamler/blob/master/doc/guide/03_BasicDataTypes.md)
+- [Pattern Matching](https://github.com/hamler-lang/hamler/blob/master/doc/guide/04_MoreTypesandPatternMatching.md)
+- [Recursions](https://github.com/hamler-lang/hamler/blob/master/doc/guide/05_HighOrderFunctionsAndRecursions.md)
+- [Type Classes](https://github.com/hamler-lang/hamler/blob/master/doc/guide/06_TypeClasses.md)
+- [Applicative, Monad](https://github.com/hamler-lang/hamler/blob/master/doc/guide/07_ApplicativeAndMonad.md)
+- [Foreign Language Interface](https://github.com/hamler-lang/hamler/blob/master/doc/guide/07_ForeignLanguageInterface.md)
+- [Concurrent and Distribution](https://github.com/hamler-lang/hamler/blob/master/doc/guide/08_ConcurrentAndDistribution.md)
 
 ## **Community, discussion and supports**
 
