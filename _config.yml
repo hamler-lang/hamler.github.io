@@ -24,7 +24,7 @@ logo: /images/logo.svg
 title: The Hamler Programming Language
 email: feng@emqx.io
 description: >- # this means to ignore newlines until "baseurl:"
-  Endorsing the next generation of scalable, achievable, real-time applications , and aiming to shine in 5G and IoT fields
+  Supporting the next generation of scalable, achievable, real-time applications , and aiming to shine in 5G and IoT fields
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.hamler-lang.org/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hamlerlang
