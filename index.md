@@ -95,11 +95,7 @@ To contribute to **Hamler** project:
 - Contribute code: Fork the project, and submit feature requests to [hamler-lang/hamler](https://github.com/hamler-lang/hamler).
 - Submit a proposal: Fork the [hamler-wiki](https://github.com/hamler-lang/hamler-wiki) project and submit pull request
 
-<<<<<<< HEAD
-## **Authors**
-=======
 ### [**Source Code**](https://github.com/hamler-lang/hamler)
->>>>>>> fix(jekyll): Fix jekyll build error in local
 
 The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
