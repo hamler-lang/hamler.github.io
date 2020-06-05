@@ -8,3 +8,16 @@
 body {
   background-color: rgb(229,232,238);
 }
+.wrapper {
+  header {
+    h1 {
+      display: none;
+    }
+    p:not(.view) {
+      color: #494949;
+    }
+  }
+}
+#hamler {
+  font-size: 48px;
+}
