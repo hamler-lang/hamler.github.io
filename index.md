@@ -117,7 +117,7 @@ To contribute to **Hamler** project:
 
 ### **Core Team**
 
-The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io) now.
+The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
 - [Feng Lee](https://github.com/emqplus): The designer of Hamler language.
 - [Yang M](https://github.com/EMQ-YangM): Implemented Hamler Compiler
