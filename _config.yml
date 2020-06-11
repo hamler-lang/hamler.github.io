@@ -26,9 +26,15 @@ email: feng@emqx.io
 description: >- # this means to ignore newlines until "baseurl:"
   Haskell-style functional programming language running on Erlang VM.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.hamler-lang.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: https://hamler-lang.org # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: hamlerlang
 github_username:  hamler-lang
+
+github:
+  repository_nwo: hamler-lang/hamler
+  repository_url: https://github.com/hamler-lang/hamler
+  owner_name: hamler-lang
+  owner_url: https://github.com/hamler-lang
 
 # Build settings
 theme: jekyll-theme-minimal
