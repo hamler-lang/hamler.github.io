@@ -124,9 +124,9 @@ The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io
 - [Shawn](https://github.com/terry-xiaoyu): Contributed [rebar3_hamler][rebar3_hamler] plugin
 - [Rory Z](https://github.com/zhanghongtong): Contributed [homebrew][homebrew] install package
 - [wivwiv](https://github.com/wivwiv): Designer of hamler-lang.org website
-- [CrazyWisdom](https://github.com/CrazyWisdom): maintainer of hamler-lang.org
-- [ysfscream](https://github.com/ysfscream): maintainer of hamler-lang.org
-- [juan6666](https://github.com/juan6666)：designer of Hamler language logo
+- [CrazyWisdom](https://github.com/CrazyWisdom): Maintainer of hamler-lang.org
+- [ysfscream](https://github.com/ysfscream): Maintainer of hamler-lang.org
+- [juan6666](https://github.com/juan6666)：Designer of Hamler language logo
 
 ## **About EMQ**
 
