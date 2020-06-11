@@ -34,6 +34,16 @@ Now all the features are avaliable in the Hamler programming language.
 - Advanced module system
 - Built-in concurrency
 
+## **Design**
+
+The Hamler source code is parsed to generate CST, then CoreErlang's IR is generated after CST -> AST -> CoreFn's syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final Beam bytecode.
+
+The Hamler compiler architecture is shown below:
+
+![hamler-compiler](images/compiler.png)
+
+The Hamler 0.1 compiler was initially attempted to be implemented based on the GHC 8.10.1, but was later changed to adapt from Purescript Compiler 0.13.6's implementation.
+
 ## **Installation**
 
 ```shell
@@ -76,16 +86,16 @@ make run
 
 ### **Documentation**
 
-- [Cheatsheet](https://github.com/hamler-lang/hamler/blob/master/doc/Cheatsheet.md)
-- [Why Hamler?](https://github.com/hamler-lang/hamler/blob/master/doc/guide/01_WhyHamler.md)
-- [Quick Start](https://github.com/hamler-lang/hamler/blob/master/doc/guide/02_QuickStart.md)
-- [Basic Data Types](https://github.com/hamler-lang/hamler/blob/master/doc/guide/03_BasicTypesFucntionsAndOperators.md)
-- [Pattern Matching](https://github.com/hamler-lang/hamler/blob/master/doc/guide/04_MoreTypesandPatternMatching.md)
-- [Recursions](https://github.com/hamler-lang/hamler/blob/master/doc/guide/05_HigherOrderFunctionsAndRecursions.md)
-- [Type Classes](https://github.com/hamler-lang/hamler/blob/master/doc/guide/06_TypeClasses.md)
-- [Applicative, Monad](https://github.com/hamler-lang/hamler/blob/master/doc/guide/07_ApplicativeAndMonad.md)
-- [Foreign Language Interface](https://github.com/hamler-lang/hamler/blob/master/doc/guide/ForeignLanguageInterface.md)
-- [Concurrent and Distribution](https://github.com/hamler-lang/hamler/blob/master/doc/guide/ConcurrentAndDistribution.md)
+- [Cheatsheet][Cheatsheet]
+- [Why Hamler?][WhyHamler]
+- [Quick Start][QuickStart]
+- [Basic Data Types][BasicDataTypes]
+- [Pattern Matching][PatternMatching]
+- [Recursions][Recursions]
+- [Type Classes][TypeClasses]
+- [Applicative, Monad][ApplicativeMonad]
+- [Foreign Language Interface][FFI]
+- [Concurrent and Distribution][ConcurrentAndDistribution]
 
 ## **Community, discussion and supports**
 
@@ -100,17 +110,45 @@ You can reach the **Hamler** community and core team via the following channels:
 
 To contribute to **Hamler** project:
 
-- Report issues : submit any bugs, issues to [hamler/issues](https://github.com/hamler-lang/hamler/issues)
-- Contribute code: Fork the project, and submit feature requests to [hamler-lang/hamler](https://github.com/hamler-lang/hamler).
-- Submit a proposal: Fork the [hamler-wiki](https://github.com/hamler-lang/hamler-wiki) project and submit pull request
+- Report issues : submit any bugs, issues to [hamler/issues][hamler-issues]
+- Contribute code: Fork the project, and submit feature requests to [hamler-lang/hamler][hamler-project]
+- Submit a proposal: Fork the [hamler-wiki][hamler-wiki] project and submit pull request
 
-### [**Source Code**](https://github.com/hamler-lang/hamler)
+### [**Core Team**]
 
 The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
-- Feng Lee <feng@emqx.io>
-- Yang M  <yangm@emqx.io>
+- [Feng Lee](https://github.com/emqplus): The designer of Hamler language. Came up with the vision and implemented most of the libs
+- [Yang M](https://github.com/EMQ-YangM): Implemented Hamler Compiler
+- [S Hu](https://github.com/SjWho): Maintainer of the documentations
+- [Shawn](https://github.com/terry-xiaoyu): Contributed [rebar3_hamler][rebar3_hamler] plugin
+- [Rory Z](https://github.com/zhanghongtong): Contributed [homebrew][homebrew] install package
+- [wivwiv](https://github.com/wivwiv): Designer of hamler-lang.org website
+- [CrazyWisdom](https://github.com/CrazyWisdom): maintainer of hamler-lang.org
+- [ysfscream](https://github.com/ysfscream): maintainer of hamler-lang.org
+- [juan6666](https://github.com/juan6666)：designer of Hamler language logo
+
+## **About EMQ**
+
+[**EMQ**](https://www.emqx.io/en/) is an open source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
 
 ## **License**
 
 BSD3
+
+[Cheatsheet]: https://github.com/hamler-lang/documentation/blob/master/Cheatsheet.md
+[WhyHamler]: https://github.com/hamler-lang/documentation/blob/master/guides/01_WhyHamler.md
+[QuickStart]: https://github.com/hamler-lang/documentation/blob/master/guides/02_QuickStart.md
+[BasicDataTypes]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFucntionsAndOperators.md
+[PatternMatching]: https://github.com/hamler-lang/documentation/blob/master/guides/04_MoreTypesandPatternMatching.md
+[Recursions]: https://github.com/hamler-lang/documentation/blob/master/guides/05_HigherOrderFunctionsAndRecursions.md
+[TypeClasses]: https://github.com/hamler-lang/documentation/blob/master/guides/06_TypeClasses.md
+[ApplicativeMonad]: https://github.com/hamler-lang/documentation/blob/master/guides/07_ApplicativeAndMonad.md
+[FFI]: https://github.com/hamler-lang/documentation/blob/master/guides/ForeignLanguageInterface.md
+[ConcurrentAndDistribution]: https://github.com/hamler-lang/documentation/blob/master/guides/ConcurrentAndDistribution.md
+[rebar3_hamler]: https://github.com/hamler-lang/rebar3_hamler
+[homebrew]: https://github.com/hamler-lang/homebrew-hamler
+[hamler-issues]: https://github.com/hamler-lang/hamler/issues
+[hamler-project]: https://github.com/hamler-lang/hamler
+[hamler-wiki]: https://github.com/hamler-lang/hamler-wiki
+
