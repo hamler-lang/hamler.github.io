@@ -36,13 +36,11 @@ Now all the features are avaliable in the Hamler programming language.
 
 ## **Design**
 
-The Hamler source code is parsed to generate CST, then CoreErlang's IR is generated after CST -> AST -> CoreFn's syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final Beam bytecode.
-
-The Hamler compiler architecture is shown below:
+The Hamler 0.1 compiler was forked from [PureScript][PureScriptSite] 0.13.6. The Hamler compiler architecture is shown as below:
 
 ![hamler-compiler](images/compiler.png)
 
-The Hamler 0.1 compiler was initially attempted to be implemented based on the GHC 8.10.1, but was later changed to adapt from [PureScript](https://www.purescript.org/) Compiler 0.13.6's implementation.
+The Hamler source code is parsed to generate CST, then CoreErlang's IR is generated after **CST -> AST -> CoreFn**'s syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final Beam bytecode.
 
 ## **Installation**
 
@@ -117,9 +115,9 @@ To contribute to **Hamler** project:
 
 ## **Core Team**
 
-The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
+We would like to give a big shout-out to the [Purescript][PureScriptSite] team and community for all years of efforts making its amazing compiler. The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
-- [Feng Lee](https://github.com/emqplus): The designer of Hamler language.
+- [Feng Lee](https://github.com/emqplus): The designer of Hamler language
 - [Yang M](https://github.com/EMQ-YangM): Implemented Hamler Compiler
 - [S Hu](https://github.com/SjWho): Maintainer of the documentations
 - [Shawn](https://github.com/terry-xiaoyu): Contributed [rebar3_hamler][rebar3_hamler] plugin
@@ -152,4 +150,4 @@ BSD3
 [hamler-issues]: https://github.com/hamler-lang/hamler/issues
 [hamler-project]: https://github.com/hamler-lang/hamler
 [hamler-wiki]: https://github.com/hamler-lang/hamler-wiki
-
+[PureScriptSite]: https://www.purescript.org/
