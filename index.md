@@ -42,7 +42,7 @@ The Hamler compiler architecture is shown below:
 
 ![hamler-compiler](images/compiler.png)
 
-The Hamler 0.1 compiler was initially attempted to be implemented based on the GHC 8.10.1, but was later changed to adapt from [Purescript](https://www.purescript.org/) Compiler 0.13.6's implementation.
+The Hamler 0.1 compiler was initially attempted to be implemented based on the GHC 8.10.1, but was later changed to adapt from [PureScript](https://www.purescript.org/) Compiler 0.13.6's implementation.
 
 ## **Installation**
 
@@ -115,7 +115,7 @@ To contribute to **Hamler** project:
 - Contribute code: Fork the project, and submit feature requests to [hamler-lang/hamler][hamler-project]
 - Submit a proposal: Fork the [hamler-wiki][hamler-wiki] project and submit pull request
 
-### **Core Team**
+## **Core Team**
 
 The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
 
