@@ -57,31 +57,31 @@ brew install hamler
 
 **Build from source code(macOS)**
 
-0. Install Erlang
+1. Install Erlang
 
-```shell
-brew install erlang@22
-```
+   ```shell
+   brew install erlang@22
+   ```
 
-1. Install Stack
+2. Install Stack
 
-```shell
-brew install haskell-stack
-```
+   ```shell
+   brew install haskell-stack
+   ```
 
-2. Clone hamler from the git repo
+3. Clone hamler from the git repo
 
-```shell
-git clone https://github.com/hamler-lang/hamler.git
-```
+   ```shell
+   git clone https://github.com/hamler-lang/hamler.git
+   ```
 
-3. Install hamler
+4. Install hamler
 
-```shell
-cd hamler
-make
-make install
-```
+   ```shell
+   cd hamler
+   make
+   make install
+   ```
 
 ## **Create a project**
 
