@@ -36,11 +36,11 @@ Now all the features are avaliable in the Hamler programming language.
 
 ## **Design**
 
-The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. The Hamler compiler architecture is shown as below:
+The Hamler compiler architecture is shown as below:
 
 ![hamler-compiler](images/compiler.png)
 
-The Hamler source code is parsed to generate **CST**, then CoreErlang's IR is generated after **CST -> AST -> CoreFn**'s syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final Beam bytecode.
+The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. The Hamler source code is parsed to generate **CST**, then CoreErlang's IR is generated after **CST -> AST -> CoreFn**'s syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final **Beam bytecode**.
 
 [PureScriptHamler]: https://github.com/hamler-lang/purescript
 
@@ -50,10 +50,10 @@ The Hamler source code is parsed to generate **CST**, then CoreErlang's IR is ge
 
 **Homebrew(macOS)**
 
-```shell
-brew tap hamler-lang/hamler
-brew install hamler
-```
+  ```shell
+  brew tap hamler-lang/hamler
+  brew install hamler
+  ```
 
 **Build from source code(macOS)**
 
@@ -85,38 +85,38 @@ brew install hamler
 
 ## **Create a project**
 
-```shell
-mkdir demo-project
-cd demo-project
-hamler init
-make
-make run
-```
+  ```shell
+  mkdir demo-project
+  cd demo-project
+  hamler init
+  make
+  make run
+  ```
 
 ## **Try the interpreter**
 
-```shell
-hamler repl
+  ```shell
+  hamler repl
 
-> -- List, range and enums
-> [1,2,3]
-> [1..10]
-> ['a'..'z']
+  > -- List, range and enums
+  > [1,2,3]
+  > [1..10]
+  > ['a'..'z']
 
-> -- erlang style maps
-> import Data.Map as Map
-> -- New map
-> m = #{"foo" => "bar", "bar" => "foo"}
-> -- Match Map
-> #{"foo" := a, "bar" := b} = m
-> -- get, put
-> Map.get "foo" m -- a = "bar"
-> Map.get "bar" m -- b = "foo"
-> m1 = Map.put "key" "val"
-> -- keys, values
-> keys = Map.keys m
-> values = Map.values m
-```
+  > -- erlang style maps
+  > import Data.Map as Map
+  > -- New map
+  > m = #{"foo" => "bar", "bar" => "foo"}
+  > -- Match Map
+  > #{"foo" := a, "bar" := b} = m
+  > -- get, put
+  > Map.get "foo" m -- a = "bar"
+  > Map.get "bar" m -- b = "foo"
+  > m1 = Map.put "key" "val"
+  > -- keys, values
+  > keys = Map.keys m
+  > values = Map.values m
+  ```
 
 ### **Documentation**
 
