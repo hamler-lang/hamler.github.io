@@ -36,52 +36,87 @@ Now all the features are avaliable in the Hamler programming language.
 
 ## **Design**
 
-The Hamler 0.1 compiler was forked from [PureScript][PureScriptSite] 0.13.6. The Hamler compiler architecture is shown as below:
+The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. The Hamler compiler architecture is shown as below:
 
 ![hamler-compiler](images/compiler.png)
 
-The Hamler source code is parsed to generate CST, then CoreErlang's IR is generated after **CST -> AST -> CoreFn**'s syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final Beam bytecode.
+The Hamler source code is parsed to generate **CST**, then CoreErlang's IR is generated after **CST -> AST -> CoreFn**'s syntax tree transformation, syntax analysis and type checking. The code is then used by the Erlang compiler to generate the final Beam bytecode.
+
+[PureScriptHamler]: https://github.com/hamler-lang/purescript
 
 ## **Installation**
 
-```shell
-brew tap hamler-lang/hamler
-brew install hamler
-```
+*Note: packages for linux and windows will be coming soon...*
 
-## **Try the interpreter**
+**Homebrew(macOS)**
 
-```shell
-hamler repl
+  ```shell
+  brew tap hamler-lang/hamler
+  brew install hamler
+  ```
 
-> -- List, range and enums
-> [1,2,3]
-> [1..10]
-> ['a'..'z']
+**Build from source code(macOS)**
 
-> import Data.Map as Map
-> -- New map
-> m = #{"foo" => "bar", "bar" => "foo"}
-> -- Match Map
-> #{"foo" := a, "bar" := b} = m
-> -- get, put
-> Map.get "foo" m -- a = "bar"
-> Map.get "bar" m -- b = "foo"
-> m1 = Map.put "key" "val"
-> -- keys, values
-> keys = Map.keys m
-> values = Map.values m
-```
+0. Install Erlang
+
+  ```shell
+  brew install erlang@22
+  ```
+
+1. Install Stack
+
+  ```shell
+  brew install haskell-stack
+  ```
+
+2. Clone hamler from the git repo
+
+  ```shell
+  git clone https://github.com/hamler-lang/hamler.git
+  ```
+
+3. Install hamler
+
+  ```shell
+  cd hamler
+  make
+  make install
+  ```
 
 ## **Create a project**
 
-```shell
-mkdir demo-project
-cd demo-project
-hamler init
-make
-make run
-```
+  ```shell
+  mkdir demo-project
+  cd demo-project
+  hamler init
+  make
+  make run
+  ```
+
+## **Try the interpreter**
+
+  ```shell
+  hamler repl
+
+  > -- List, range and enums
+  > [1,2,3]
+  > [1..10]
+  > ['a'..'z']
+
+  > -- erlang style maps
+  > import Data.Map as Map
+  > -- New map
+  > m = #{"foo" => "bar", "bar" => "foo"}
+  > -- Match Map
+  > #{"foo" := a, "bar" := b} = m
+  > -- get, put
+  > Map.get "foo" m -- a = "bar"
+  > Map.get "bar" m -- b = "foo"
+  > m1 = Map.put "key" "val"
+  > -- keys, values
+  > keys = Map.keys m
+  > values = Map.values m
+  ```
 
 ### **Documentation**
 
@@ -95,6 +130,17 @@ make run
 - [Applicative, Monad][ApplicativeMonad]
 - [Foreign Language Interface][FFI]
 - [Concurrent and Distribution][ConcurrentAndDistribution]
+
+[Cheatsheet]: https://github.com/hamler-lang/documentation/blob/master/Cheatsheet.md
+[WhyHamler]: https://github.com/hamler-lang/documentation/blob/master/guides/01_WhyHamler.md
+[QuickStart]: https://github.com/hamler-lang/documentation/blob/master/guides/02_QuickStart.md
+[BasicDataTypes]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFucntionsAndOperators.md
+[PatternMatching]: https://github.com/hamler-lang/documentation/blob/master/guides/04_MoreTypesandPatternMatching.md
+[Recursions]: https://github.com/hamler-lang/documentation/blob/master/guides/05_HigherOrderFunctionsAndRecursions.md
+[TypeClasses]: https://github.com/hamler-lang/documentation/blob/master/guides/06_TypeClasses.md
+[ApplicativeMonad]: https://github.com/hamler-lang/documentation/blob/master/guides/07_ApplicativeAndMonad.md
+[FFI]: https://github.com/hamler-lang/documentation/blob/master/guides/ForeignLanguageInterface.md
+[ConcurrentAndDistribution]: https://github.com/hamler-lang/documentation/blob/master/guides/ConcurrentAndDistribution.md
 
 ## **Community, discussion and supports**
 
@@ -113,11 +159,15 @@ To contribute to **Hamler** project:
 - Contribute code: Fork the project, and submit feature requests to [hamler-lang/hamler][hamler-project]
 - Submit a proposal: Fork the [hamler-wiki][hamler-wiki] project and submit pull request
 
+[hamler-issues]: https://github.com/hamler-lang/hamler/issues
+[hamler-project]: https://github.com/hamler-lang/hamler
+[hamler-wiki]: https://github.com/hamler-lang/hamler-wiki
+
 ## **Core Team**
 
-We would like to give a big shout-out to the [Purescript][PureScriptSite] team and community for all years of efforts making its amazing compiler. The **Hamler** core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now.
+The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now:
 
-- [Feng Lee](https://github.com/emqplus): The designer of Hamler language
+- [Feng Lee](https://github.com/emqplus): Designer of Hamler Language
 - [Yang M](https://github.com/EMQ-YangM): Implemented Hamler Compiler
 - [S Hu](https://github.com/SjWho): Maintainer of the documentations
 - [Shawn](https://github.com/terry-xiaoyu): Contributed [rebar3_hamler][rebar3_hamler] plugin
@@ -127,27 +177,17 @@ We would like to give a big shout-out to the [Purescript][PureScriptSite] team a
 - [ysfscream](https://github.com/ysfscream): Maintainer of hamler-lang.org
 - [juan6666](https://github.com/juan6666)：Designer of Hamler language logo
 
+[homebrew]: https://github.com/hamler-lang/homebrew-hamler
+[rebar3_hamler]: https://github.com/hamler-lang/rebar3_hamler
+
+## **License & Credits**
+
+We would like to express our great appreciation to the [PureScript][PureScriptSite] team and community for all years of efforts making its amazing compiler, especially **CoreFn** and its incredible adaptability.
+
+The hamler language project is licensed under BSD3, see [LICENSE](./LICENSE).
+
+[PureScriptSite]: https://www.purescript.org/
+
 ## **About EMQ**
 
-[**EMQ**](https://www.emqx.io/) is an open source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
-
-## **License**
-
-BSD3
-
-[Cheatsheet]: https://github.com/hamler-lang/documentation/blob/master/Cheatsheet.md
-[WhyHamler]: https://github.com/hamler-lang/documentation/blob/master/guides/01_WhyHamler.md
-[QuickStart]: https://github.com/hamler-lang/documentation/blob/master/guides/02_QuickStart.md
-[BasicDataTypes]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFucntionsAndOperators.md
-[PatternMatching]: https://github.com/hamler-lang/documentation/blob/master/guides/04_MoreTypesandPatternMatching.md
-[Recursions]: https://github.com/hamler-lang/documentation/blob/master/guides/05_HigherOrderFunctionsAndRecursions.md
-[TypeClasses]: https://github.com/hamler-lang/documentation/blob/master/guides/06_TypeClasses.md
-[ApplicativeMonad]: https://github.com/hamler-lang/documentation/blob/master/guides/07_ApplicativeAndMonad.md
-[FFI]: https://github.com/hamler-lang/documentation/blob/master/guides/ForeignLanguageInterface.md
-[ConcurrentAndDistribution]: https://github.com/hamler-lang/documentation/blob/master/guides/ConcurrentAndDistribution.md
-[rebar3_hamler]: https://github.com/hamler-lang/rebar3_hamler
-[homebrew]: https://github.com/hamler-lang/homebrew-hamler
-[hamler-issues]: https://github.com/hamler-lang/hamler/issues
-[hamler-project]: https://github.com/hamler-lang/hamler
-[hamler-wiki]: https://github.com/hamler-lang/hamler-wiki
-[PureScriptSite]: https://www.purescript.org/
+[**EMQ**](https://emqx.io/) is an open source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
