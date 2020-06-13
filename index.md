@@ -50,73 +50,73 @@ The Hamler source code is parsed to generate **CST**, then CoreErlang's IR is ge
 
 **Homebrew(macOS)**
 
-  ```shell
-  brew tap hamler-lang/hamler
-  brew install hamler
-  ```
+```shell
+brew tap hamler-lang/hamler
+brew install hamler
+```
 
 **Build from source code(macOS)**
 
 0. Install Erlang
 
-  ```shell
-  brew install erlang@22
-  ```
+```shell
+brew install erlang@22
+```
 
 1. Install Stack
 
-  ```shell
-  brew install haskell-stack
-  ```
+```shell
+brew install haskell-stack
+```
 
 2. Clone hamler from the git repo
 
-  ```shell
-  git clone https://github.com/hamler-lang/hamler.git
-  ```
+```shell
+git clone https://github.com/hamler-lang/hamler.git
+```
 
 3. Install hamler
 
-  ```shell
-  cd hamler
-  make
-  make install
-  ```
+```shell
+cd hamler
+make
+make install
+```
 
 ## **Create a project**
 
-  ```shell
-  mkdir demo-project
-  cd demo-project
-  hamler init
-  make
-  make run
-  ```
+```shell
+mkdir demo-project
+cd demo-project
+hamler init
+make
+make run
+```
 
 ## **Try the interpreter**
 
-  ```shell
-  hamler repl
+```shell
+hamler repl
 
-  > -- List, range and enums
-  > [1,2,3]
-  > [1..10]
-  > ['a'..'z']
+> -- List, range and enums
+> [1,2,3]
+> [1..10]
+> ['a'..'z']
 
-  > -- erlang style maps
-  > import Data.Map as Map
-  > -- New map
-  > m = #{"foo" => "bar", "bar" => "foo"}
-  > -- Match Map
-  > #{"foo" := a, "bar" := b} = m
-  > -- get, put
-  > Map.get "foo" m -- a = "bar"
-  > Map.get "bar" m -- b = "foo"
-  > m1 = Map.put "key" "val"
-  > -- keys, values
-  > keys = Map.keys m
-  > values = Map.values m
-  ```
+> -- erlang style maps
+> import Data.Map as Map
+> -- New map
+> m = #{"foo" => "bar", "bar" => "foo"}
+> -- Match Map
+> #{"foo" := a, "bar" := b} = m
+> -- get, put
+> Map.get "foo" m -- a = "bar"
+> Map.get "bar" m -- b = "foo"
+> m1 = Map.put "key" "val"
+> -- keys, values
+> keys = Map.keys m
+> values = Map.values m
+```
 
 ### **Documentation**
 
