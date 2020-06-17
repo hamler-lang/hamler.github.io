@@ -24,8 +24,9 @@ Now all the features are avaliable in the Hamler programming language.
 ## **Features**
 
 - Functional programming
-- Haskell and ML style
-- ADT and Type Checking/Inference
+- Haskell and ML style syntax
+- Compile-time type Checking/Inference
+- Algebraic data type (ADT)
 - Functions, higher-order functions
 - Currying and partial application
 - Pattern matching, and Guards
