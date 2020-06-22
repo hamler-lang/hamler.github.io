@@ -124,24 +124,34 @@ The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. T
 - [Cheatsheet][Cheatsheet]
 - [Why Hamler?][WhyHamler]
 - [Quick Start][QuickStart]
-- [Basic Data Types][BasicDataTypes]
-- [Pattern Matching][PatternMatching]
-- [Recursions][Recursions]
+- [Basic Types, Functions and Operators][BasicTypesFunctionsAndOperators]
+- [More Types and Pattern Matching][MoreTypesandPatternMatching]
+- [High Order Functions And Recursions][HigherOrderFunctionsAndRecursions]
 - [Type Classes][TypeClasses]
-- [Applicative, Monad][ApplicativeMonad]
-- [Foreign Language Interface][FFI]
-- [Concurrent and Distribution][ConcurrentAndDistribution]
+- [Applicative and Monad][ApplicativeAndMonad]
+- [Foreign Language Interface][ForeignFunctionInterface]
+- [Data Types Mapping][DataTypesMapping]
+- [Process and Concurrency][ProcessAndConcurrency]
+- [OTP Behaviours][OTPBehaviours]
+- [Node and Distribution][NodeAndDistribution]
+- [Differences From Erlang][DifferencesFromErlang]
+- [FAQ][FAQ]
 
 [Cheatsheet]: https://github.com/hamler-lang/documentation/blob/master/Cheatsheet.md
 [WhyHamler]: https://github.com/hamler-lang/documentation/blob/master/guides/01_WhyHamler.md
 [QuickStart]: https://github.com/hamler-lang/documentation/blob/master/guides/02_QuickStart.md
-[BasicDataTypes]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFucntionsAndOperators.md
-[PatternMatching]: https://github.com/hamler-lang/documentation/blob/master/guides/04_MoreTypesandPatternMatching.md
-[Recursions]: https://github.com/hamler-lang/documentation/blob/master/guides/05_HigherOrderFunctionsAndRecursions.md
+[BasicTypesFunctionsAndOperators]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFucntionsAndOperators.md
+[MoreTypesandPatternMatching]: https://github.com/hamler-lang/documentation/blob/master/guides/04_MoreTypesandPatternMatching.md
+[HigherOrderFunctionsAndRecursions]: https://github.com/hamler-lang/documentation/blob/master/guides/05_HigherOrderFunctionsAndRecursions.md
 [TypeClasses]: https://github.com/hamler-lang/documentation/blob/master/guides/06_TypeClasses.md
-[ApplicativeMonad]: https://github.com/hamler-lang/documentation/blob/master/guides/07_ApplicativeAndMonad.md
-[FFI]: https://github.com/hamler-lang/documentation/blob/master/guides/ForeignLanguageInterface.md
-[ConcurrentAndDistribution]: https://github.com/hamler-lang/documentation/blob/master/guides/ConcurrentAndDistribution.md
+[ApplicativeAndMonad]: https://github.com/hamler-lang/documentation/blob/master/guides/07_ApplicativeAndMonad.md
+[ForeignFunctionInterface]: https://github.com/hamler-lang/documentation/blob/master/guides/08_ForeignFunctionInterface.md
+[DataTypesMapping]: https://github.com/hamler-lang/documentation/blob/master/guides/09_DataTypesMapping.md
+[ProcessAndConcurrency]: https://github.com/hamler-lang/documentation/blob/master/guides/10_ProcessAndConcurrency.md
+[OTPBehaviours]: https://github.com/hamler-lang/documentation/blob/master/guides/11_OTPBehaviours.md
+[NodeAndDistribution]: https://github.com/hamler-lang/documentation/blob/master/guides/12_NodeAndDistribution.md
+[DifferencesFromErlang]: https://github.com/hamler-lang/documentation/blob/master/guides/13_DifferencesFromErlang.md
+[FAQ]: https://github.com/hamler-lang/documentation/blob/master/FAQ.md
 
 ## **Community, discussion and supports**
 
