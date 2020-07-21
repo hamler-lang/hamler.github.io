@@ -140,7 +140,7 @@ The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. T
 [Cheatsheet]: https://github.com/hamler-lang/documentation/blob/master/Cheatsheet.md
 [WhyHamler]: https://github.com/hamler-lang/documentation/blob/master/guides/01_WhyHamler.md
 [QuickStart]: https://github.com/hamler-lang/documentation/blob/master/guides/02_QuickStart.md
-[BasicTypesFunctionsAndOperators]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFucntionsAndOperators.md
+[BasicTypesFunctionsAndOperators]: https://github.com/hamler-lang/documentation/blob/master/guides/03_BasicTypesFunctionsAndOperators.md
 [MoreTypesandPatternMatching]: https://github.com/hamler-lang/documentation/blob/master/guides/04_MoreTypesandPatternMatching.md
 [HigherOrderFunctionsAndRecursions]: https://github.com/hamler-lang/documentation/blob/master/guides/05_HigherOrderFunctionsAndRecursions.md
 [TypeClasses]: https://github.com/hamler-lang/documentation/blob/master/guides/06_TypeClasses.md
