@@ -131,9 +131,9 @@ The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. T
 - [Applicative and Monad][ApplicativeAndMonad]
 - [Foreign Language Interface][ForeignFunctionInterface]
 - [Data Types Mapping][DataTypesMapping]
-- [Process and Concurrency][ProcessAndConcurrency]
+- [Message Passing Concurrency][MessagePassingConcurrency]
 - [OTP Behaviours][OTPBehaviours]
-- [Node and Distribution][NodeAndDistribution]
+- [Node and Distributed Erlang][NodeAndDistributedErlang]
 - [Differences From Erlang][DifferencesFromErlang]
 - [FAQ][FAQ]
 
@@ -147,9 +147,9 @@ The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. T
 [ApplicativeAndMonad]: https://github.com/hamler-lang/documentation/blob/master/guides/07_ApplicativeAndMonad.md
 [ForeignFunctionInterface]: https://github.com/hamler-lang/documentation/blob/master/guides/08_ForeignFunctionInterface.md
 [DataTypesMapping]: https://github.com/hamler-lang/documentation/blob/master/guides/09_DataTypesMapping.md
-[ProcessAndConcurrency]: https://github.com/hamler-lang/documentation/blob/master/guides/10_ProcessAndConcurrency.md
+[MessagePassingConcurrency]: https://github.com/hamler-lang/documentation/blob/master/guides/10_MessagePassingConcurrency.md
 [OTPBehaviours]: https://github.com/hamler-lang/documentation/blob/master/guides/11_OTPBehaviours.md
-[NodeAndDistribution]: https://github.com/hamler-lang/documentation/blob/master/guides/12_NodeAndDistribution.md
+[NodeAndDistributedErlang]: https://github.com/hamler-lang/documentation/blob/master/guides/12_NodeAndDistributedErlang.md
 [DifferencesFromErlang]: https://github.com/hamler-lang/documentation/blob/master/guides/13_DifferencesFromErlang.md
 [FAQ]: https://github.com/hamler-lang/documentation/blob/master/FAQ.md
 
