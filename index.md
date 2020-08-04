@@ -8,7 +8,7 @@ title: The Hamler Programming Language
 
 **Hamler** empowers industries to build the next generation of scalable, reliable, realtime applications, especially for 5G, IoT and edge computing.
 
-## **Why Hamler?**
+## Why Hamler?
 
 For almost a decade, we have been developing software systems based on Erlang/OTP, especially our main product [EMQ X](https://github.com/emqx/emqx) - the scalable open-source MQTT broker. So, we have always believed that Erlang is a masterpiece of engineering. With amazing concurrency, distribution and fault tolerance, it is one of the few general-purpose language platforms able to properly handle concurrency and soft realtime.
 
@@ -21,7 +21,7 @@ However, from all the experience writing Erlang, we believe that the following f
 
 Now all the features are avaliable in the Hamler programming language.
 
-## **Features**
+## Features
 
 - Functional programming
 - Haskell and ML-style syntax
@@ -35,7 +35,7 @@ Now all the features are avaliable in the Hamler programming language.
 - Advanced module system
 - Built-in concurrency
 
-## **Design**
+## Design
 
 The Hamler compiler architecture is shown as below:
 
@@ -45,7 +45,7 @@ The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. T
 
 [PureScriptHamler]: https://github.com/hamler-lang/purescript
 
-## **Installation**
+## Installation
 
 Get installation packages from [Github Release](https://github.com/hamler-lang/hamler/releases)
 
@@ -105,7 +105,7 @@ brew install hamler
    make install
    ```
 
-## **Create a project**
+## Create a project
 
   ```shell
   mkdir demo-project
@@ -115,7 +115,7 @@ brew install hamler
   make run
   ```
 
-## **Try the interpreter**
+## Try the interpreter
 
   ```shell
   hamler repl
@@ -140,7 +140,7 @@ brew install hamler
   > values = Map.values m
   ```
 
-### **Documentation**
+### Documentation
 
 - [Cheatsheet][Cheatsheet]
 - [Why Hamler?][WhyHamler]
@@ -174,7 +174,7 @@ brew install hamler
 [DifferencesFromErlang]: https://github.com/hamler-lang/documentation/blob/master/guides/13_DifferencesFromErlang.md
 [FAQ]: https://github.com/hamler-lang/documentation/blob/master/FAQ.md
 
-## **Community, discussion and supports**
+## Community, discussion and supports
 
 You can reach the **Hamler** community and core team via the following channels:
 
@@ -183,7 +183,7 @@ You can reach the **Hamler** community and core team via the following channels:
 - [Reddit - /r/HamlerLang](https://www.reddit.com/r/HamlerLang/)
 - [Medium - @hamlerlang](https://medium.com/@hamlerlang)
 
-## **Contributing**
+## Contributing
 
 To contribute to **Hamler** project:
 
@@ -195,7 +195,7 @@ To contribute to **Hamler** project:
 [hamler-project]: https://github.com/hamler-lang/hamler
 [hamler-wiki]: https://github.com/hamler-lang/hamler-wiki
 
-## **Core Team**
+## Core Team
 
 The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now:
 
@@ -212,7 +212,7 @@ The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) n
 [homebrew]: https://github.com/hamler-lang/homebrew-hamler
 [rebar3_hamler]: https://github.com/hamler-lang/rebar3_hamler
 
-## **License & Credits**
+## License & Credits
 
 We would like to express our great appreciation to the [PureScript][PureScriptSite] team and community for all years of efforts making its amazing compiler, especially **CoreFn** and its incredible adaptability.
 
@@ -220,6 +220,6 @@ The hamler language project is licensed under BSD3, see [LICENSE](./LICENSE).
 
 [PureScriptSite]: https://www.purescript.org/
 
-## **About EMQ**
+## About EMQ
 
-[**EMQ**](https://emqx.io/) is an open source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
+[**EMQ**](https://emqx.io/) is an open-source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
