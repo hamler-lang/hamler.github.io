@@ -47,14 +47,35 @@ The Hamler 0.1 compiler was forked from [PureScript][PureScriptHamler] 0.13.6. T
 
 ## **Installation**
 
-*Note: packages for linux and windows will be coming soon...*
+Get installation packages from [Github Release](https://github.com/hamler-lang/hamler/releases)
+
+*Note: packages for windows will be coming soon...*
+
+**Linux**
+
+```shell
+$ tar zxvf hamer-$version.tar.gz -C /usr/lib/hamler
+$ ln -s /usr/lib/hamler/bin/hamer /usr/bin/hamler
+```
+
+**Centos 7**
+
+```shell
+$ rpm -ivh hamler-$version-1.el7.x86_64.rpm
+```
+
+**Debian 8 / Debian 9 / Debian 10 / Ubuntu 16.04 / Ubuntu 18.04 / Ubuntu 20.04**
+
+```shell
+$ dpkg -i hamler_$version_amd64.deb
+```
 
 **Homebrew(macOS)**
 
-  ```shell
-  brew tap hamler-lang/hamler
-  brew install hamler
-  ```
+```shell
+brew tap hamler-lang/hamler
+brew install hamler
+```
 
 **Build from source code(macOS)**
 
