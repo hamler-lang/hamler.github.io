@@ -54,7 +54,7 @@ Get installation packages from [Github Release](https://github.com/hamler-lang/h
 **Linux**
 
 ```shell
-$ tar zxvf hamer-$version.tar.gz -C /usr/lib/hamler
+$ tar zxvf hamler-$version.tgz -C /usr/lib/hamler
 $ ln -s /usr/lib/hamler/bin/hamer /usr/bin/hamler
 ```
 
