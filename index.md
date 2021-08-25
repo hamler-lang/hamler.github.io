@@ -197,7 +197,7 @@ To contribute to **Hamler** project:
 
 ## Core Team
 
-The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://emqx.io/) now:
+The Hamler core team comes from [EMQ Technologies Co., Ltd.](https://www.emqx.com/en) now:
 
 - [Feng Lee](https://github.com/emqplus): Designer of Hamler Language
 - [Yang M](https://github.com/EMQ-YangM): Implemented Hamler Compiler
@@ -222,4 +222,4 @@ The hamler language project is licensed under BSD3, see [LICENSE](./LICENSE).
 
 ## About EMQ
 
-[**EMQ**](https://emqx.io/) is an open-source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
+[**EMQ**](https://www.emqx.com/en) is an open-source software company providing highly-scalable, real-time messaging and streaming platform for IoT applications in 5G Era.
