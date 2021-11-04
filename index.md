@@ -55,7 +55,7 @@ Get installation packages from [Github Release](https://github.com/hamler-lang/h
 
 ```shell
 $ tar zxvf hamler-$version.tgz -C /usr/lib/hamler
-$ ln -s /usr/lib/hamler/bin/hamer /usr/bin/hamler
+$ ln -s /usr/lib/hamler/bin/hamler /usr/bin/hamler
 ```
 
 **Centos 7**
